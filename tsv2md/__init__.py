@@ -26,7 +26,7 @@ class Table(object):
     def print_end(self):
         self.print_begin()
 
-    def print_row(self,line,spacer=True):
+    def print_row(self,line):
         cells = []
         for celldata in line:
             cells.append(textwrap.wrap(celldata,self.width)) 
