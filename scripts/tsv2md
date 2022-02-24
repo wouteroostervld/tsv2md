@@ -1,7 +1,0 @@
-#!/bin/env python
-
-import sys
-import tsv2md 
-
-if __name__ == "__main__":
-    sys.exit(tsv2md.main())
